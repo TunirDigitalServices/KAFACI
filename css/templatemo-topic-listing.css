@@ -328,7 +328,7 @@ strong {
   color: var(--primary-color);
 }
 
-.navbar .dropdown-menu {
+/* .navbar .dropdown-menu {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
   border: 0;
@@ -362,7 +362,7 @@ strong {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   position: relative;
-}
+} */
 
 .navbar .dropdown-item.active, 
 .navbar .dropdown-item:active,
