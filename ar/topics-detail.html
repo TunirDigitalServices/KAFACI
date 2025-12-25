@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topic Detail Page</title>
+        <title>Topic Listing Page</title>
 
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@ https://templatemo.com/tm-590-topic-listing
 -->
     </head>
     
-    <body id="top">
+    <body class="topics-listing-page" id="top">
 
         <main>
 
@@ -41,9 +41,9 @@ https://templatemo.com/tm-590-topic-listing
                         <span>Topic</span>
                     </a>
 
-                    <div class="d-lg-none ms-auto me-4">
+                    <!-- <div class="d-lg-none ms-auto me-4">
                         <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                    </div>
+                    </div> -->
     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -52,79 +52,58 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="index.html#section_1">الرئيسية</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
+                                <a class="nav-link click-scroll" href="index.html#section_2">نظرة عامة على المشروع</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="index.html#section_3">كيف يعمل</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+                                <a class="nav-link click-scroll" href="index.html#section_4">الأسئلة الشائعة</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_5">Contact</a>
+                                <a class="nav-link click-scroll" href="index.html#section_5">اتصل بنا</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <a class="nav-link dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">الصفحات</a>
 
                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
+                                    <li><a class="dropdown-item active" href="topics-listing.html">قائمة المواضيع</a></li>
 
-                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">نموذج الاتصال</a></li>
                                 </ul>
                             </li>
                         </ul>
 
-                        <div class="dropdown">
-                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Arabic</button>
-
-                            <ul class="dropdown-menu ">
-                                <li><a class="dropdown-item" href="../fr/index.html">French</a></li>
-
-                                
-
-                                <li><a class="dropdown-item" href="../index.html">English</a></li>
-                            </ul>
-                        </div>
+                        <!-- <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div> -->
                     </div>
                 </div>
             </nav>
-            
+
 
             <header class="site-header d-flex flex-column justify-content-center align-items-center">
                 <div class="container">
-                    <div class="row justify-content-center align-items-center">
+                    <div class="row align-items-center">
 
-                        <div class="col-lg-5 col-12 mb-5">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+                        <div class="col-lg-5 col-12">
+                            <nav aria-label="breadcrumb" style="direction: ltr;">
+                                <ol class="breadcrumb justify-content-end">
+                                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
 
-                                    <li class="breadcrumb-item active" aria-current="page">Web Design</li>
+                                    <li class="breadcrumb-item active" aria-current="page">   الوثائق التقنية</li>
                                 </ol>
                             </nav>
 
-                            <h2 class="text-white">Introduction to <br> Web Design 101</h2>
-
-                            <div class="d-flex align-items-center mt-5">
-                                <a href="#topics-detail" class="btn custom-btn custom-border-btn smoothscroll me-4">Read More</a>
-
-                                <a href="#top" class="custom-icon bi-bookmark smoothscroll"></a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-5 col-12">
-                            <div class="topics-detail-block bg-white shadow-lg">
-                                <img src="../images/topics/undraw_Remote_design_team_re_urdx.png" class="topics-detail-block-image img-fluid">
-                            </div>
+                            <h2 class="text-white">الوثائق التقنية</h2>
                         </div>
 
                     </div>
@@ -132,32 +111,106 @@ https://templatemo.com/tm-590-topic-listing
             </header>
 
 
-            <section class="topics-detail-section section-padding" id="topics-detail">
+            <section class="section-padding">
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-8 col-12 m-auto">
-                            <h3 class="mb-4">Introduction to Web Design</h3>
+                        <div class="col-lg-12 col-12 text-center">
+                            <h3 class="mb-4">الوثائق التقنية</h3>
+                        </div>
 
-                            <p>So how can you stand out, do something unique and interesting, build an online business, and get paid enough to change life. Please visit TemplateMo website to download free website templates.</p>
+                        <div class="col-lg-8 col-12 mt-3 mx-auto">
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="../images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
 
-                            <p><strong>There are so many ways to make money online</strong>. Below are several platforms you can use to find success. Keep in mind that there is no one path everyone can take. If that were the case, everyone would have a million dollars.</p>
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Web Design</h5>
 
-                            <blockquote>
-                                Freelancing your skills isn’t going to make you a millionaire overnight.
-                            </blockquote>
+                                            <p class="mb-0">Topic Listing includes home, listing, detail and contact pages. Feel free to modify this template for your custom websites.</p>
 
-                            <div class="row my-4">
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <img src="../images/businesswoman-using-tablet-analysis.jpg" class="topics-detail-block-image img-fluid">
-                                </div>
+                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                        </div>
 
-                                <div class="col-lg-6 col-md-6 col-12 mt-4 mt-lg-0 mt-md-0">
-                                    <img src="../images/colleagues-working-cozy-office-medium-shot.jpg" class="topics-detail-block-image img-fluid">
+                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                    </div>
                                 </div>
                             </div>
 
-                            <p>Most people start with freelancing skills they already have as a side hustle to build up income. This extra cash can be used for a vacation, to boost up savings, investing, build business.</p>
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="../images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Advertising</h5>
+
+                                            <p class="mb-0">Visit TemplateMo website to download free CSS templates. Lorem ipsum dolor, sit amet consectetur adipisicing elit animi necessitatibus</p>
+
+                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                        </div>
+
+                                        <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="../images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Podcast</h5>
+
+                                            <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit animi necessitatibus</p>
+
+                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                        </div>
+
+                                        <span class="badge bg-music rounded-pill ms-auto">20</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-12">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center mb-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">Prev</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item active" aria-current="page">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">4</a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">5</a>
+                                    </li>
+                                    
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
 
                     </div>
@@ -167,30 +220,78 @@ https://templatemo.com/tm-590-topic-listing
 
             <section class="section-padding section-bg">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row">
 
-                        <div class="col-lg-5 col-12">
-                            <img src="../images/rear-view-young-college-student.jpg" class="newsletter-image img-fluid" alt="">
+                        <div class="col-lg-12 col-12">
+                            <h3 class="mb-4">Trending Topics</h3>
                         </div>
 
-                        <div class="col-lg-5 col-12 subscribe-form-wrap d-flex justify-content-center align-items-center">
-                            <form class="custom-form subscribe-form" action="#" method="post" role="form">
-                                <h4 class="mb-4 pb-2">Get Newsletter</h4>
+                        <div class="col-lg-6 col-md-6 col-12 mt-3 mb-4 mb-lg-0">
+                            <div class="custom-block bg-white shadow-lg">
+                                <a href="topics-detail.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Investment</h5>
 
-                                <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" required="">
+                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                        </div>
 
-                                <div class="col-lg-12 col-12">
-                                    <button type="submit" class="form-control">Subscribe</button>
+                                        <span class="badge bg-finance rounded-pill ms-auto">30</span>
+                                    </div>
+
+                                    <img src="../images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12 mt-lg-3">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+                                    <img src="../images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <h5 class="text-white mb-2">Finance</h5>
+
+                                            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
+
+                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                        </div>
+
+                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                    </div>
+
+                                    <div class="social-share d-flex">
+                                        <p class="text-white me-4">Share:</p>
+
+                                        <ul class="social-icon">
+                                            <li class="social-icon-item">
+                                                <a href="#" class="social-icon-link bi-twitter"></a>
+                                            </li>
+
+                                            <li class="social-icon-item">
+                                                <a href="#" class="social-icon-link bi-facebook"></a>
+                                            </li>
+
+                                            <li class="social-icon-item">
+                                                <a href="#" class="social-icon-link bi-pinterest"></a>
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
+                                    </div>
+
+                                    <div class="section-overlay"></div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
 
                     </div>
                 </div>
             </section>
         </main>
-		
-        <footer class="site-footer section-padding">
+
+		<footer class="site-footer section-padding">
             <div class="container">
                 <div class="row">
 
