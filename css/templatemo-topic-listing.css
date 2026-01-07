@@ -395,8 +395,10 @@ strong {
     opacity: 1;
     margin-top: 0;
     pointer-events: auto;
+  
   }
 }
+
 
 .navbar-icon {
   background: var(--white-color);
@@ -408,6 +410,7 @@ strong {
   line-height: 40px;
   text-align: center;
   transition: all 0.3s ease;
+
 }
 
 .navbar-icon:hover {
